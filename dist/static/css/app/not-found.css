@@ -1,0 +1,118 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@13.4.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[7].use[2]!./node_modules/.pnpm/next@13.4.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[7].use[3]!./modules/hero/Hero.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Hero_hero__G_lxc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* for the picture */
+  padding-top: 40px;
+
+  background-image: radial-gradient(ellipse 50% 50% at 50% 60%, hsl(var(--yellow-0-hsl) / 0.08), transparent);
+
+  /* allow the gradient to spill out of the section on large screens
+  without overflow issue and with no layout change */
+  --spill-sides: calc((98vw - 100%) / 2);
+  --spill-bottom: 90px;
+  padding: 40px var(--spill-sides) var(--spill-bottom);
+  margin: 0 calc(-1 * var(--spill-sides)) calc(-1 * var(--spill-bottom));
+}
+
+.Hero_leftContainer__9_1NQ {
+  display: flex;
+  flex-direction: column;
+}
+
+.Hero_hero__G_lxc img {
+  max-width: min(720px, 80vw);
+  margin-right: -30%;
+}
+
+@media (min-width: 600px) {
+  .Hero_hero__G_lxc {
+    padding-top: 90px;
+  }
+
+  .Hero_hero__G_lxc p {
+    font-size: 1.5rem;
+  }
+
+  .Hero_leftContainer__9_1NQ {
+    align-items: flex-start;
+  }
+}
+
+@media (min-width: 900px) {
+  .Hero_hero__G_lxc {
+    flex-direction: row;
+    background-image: radial-gradient(ellipse 800px 50% at 60% 50%, hsl(var(--yellow-0-hsl) / 0.08), transparent);
+  }
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@13.4.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[7].use[2]!./node_modules/.pnpm/next@13.4.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[7].use[3]!./modules/hero/HeroTitle.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.HeroTitle_title__qIlgz {
+  margin-bottom: 1rem;
+}
+
+.HeroTitle_title__qIlgz strong {
+  font-size: 4rem;
+  color: var(--font-color-strong);
+  line-height: 1.2;
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@13.4.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[7].use[2]!./node_modules/.pnpm/next@13.4.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[7].use[3]!./modules/hero/HeroButtonsContainer.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.HeroButtonsContainer_buttons__4Hm5z {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+@media (min-width: 600px) {
+  .HeroButtonsContainer_buttons__4Hm5z {
+    flex-direction: row;
+  }
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@13.4.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[7].use[2]!./node_modules/.pnpm/next@13.4.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[7].use[3]!./modules/atoms/button/Button.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Button_button__1Xtb2 {
+  border-radius: 0.375em;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.625em;
+  padding: 0.75em 1.25em;
+  transition: background-color 100ms;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.Button_primary__TQ9mZ {
+  background-color: var(--main-color);
+  color: var(--background-page);
+}
+
+.Button_primary__TQ9mZ:hover {
+  background-color: var(--main-color-dark);
+}
+
+.Button_secondary__zl68B {
+  color: var(--font-color-strong);
+  background-color: var(--background-button);
+}
+
+.Button_secondary__zl68B:hover {
+  background-color: var(--background-button-hover);
+}
+
+.Button_secondary__zl68B:active {
+  background-color: var(--background-button-active);
+}
+
