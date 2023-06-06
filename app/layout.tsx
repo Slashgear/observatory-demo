@@ -16,6 +16,10 @@ dayjs.locale('fr');
 export default function AppLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="fr-FR">
+      <head>
+        <script async src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                crossOrigin="anonymous"></script>
+      </head>
       <body>
         <div id="__next">
           <Header />
