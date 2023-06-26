@@ -23,7 +23,7 @@ const nextConfig = {
           },
           {
              key: 'Content-Security-Policy',
-              value: `frame-ancestors 'self'`
+              value: ` default-src 'none'; connect-src 'self' https://observatory-demo.vercel.app; img-src 'self' https://images.ctfassets.net https://secure-content.meetupstatic.com; script-src 'self' 'unsafe-inline' https://code.jquery.com/jquery-3.2.1.slim.min.js; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; manifest-src 'self'; base-uri 'self'; form-action 'self'`
           },
             {
                 key: 'X-Content-Type-Options',
