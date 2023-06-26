@@ -18,8 +18,8 @@ const nextConfig = {
         source: '/:path*',
         headers: [
           {
-            key: 'X-Example',
-            value: 'Hello',
+            key: 'X-Frame-Options',
+            value: 'SAMEORIGIN',
           },
         ],
       },
